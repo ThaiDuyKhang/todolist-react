@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Input = styled.input`
-  transition: .3s ease-in-out;
+  transition: 2s ease-in-out;
   color: ${(props) => props.theme.color};
   border: ${(props) => props.theme.borderBtn};
   border-radius: ${(props) => props.theme.borderRadiusBtn};
