@@ -14,10 +14,10 @@ import { arrTheme } from "../../TodoList/themes/ThemeManager";
 const initialState = {
   themeTodoList: DarkTheme,
   taskList: [
-    { id: "task1", taskName: "task 1", completed: true },
-    { id: "task2", taskName: "task 2", completed: true },
-    { id: "task3", taskName: "task 3", completed: false },
-    { id: "task4", taskName: "task 4", completed: false },
+    { id: "task1", taskName: "Khang nè!", completed: true },
+    { id: "task2", taskName: "Khang nè!", completed: true },
+    { id: "task3", taskName: "Chứ ai", completed: false },
+    { id: "task4", taskName: "Nữa đâu", completed: false },
   ],
   taskEdit: { id: "-1", taskName: "", completed: false },
 };
